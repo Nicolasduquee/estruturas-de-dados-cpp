@@ -1,0 +1,49 @@
+--> Programa para calculo de média
+
+			Requisitos Funcionais
+
+ O programa deverá incialmente imprimir uma saldação na tela;
+
+ Em seguida, o prrograma fará o cadastro do professor(a). Será perguntado:
+     - Qual é o seu nome?
+     - Para qual classe leciona?
+     - Quantos alunos tem na sala?
+     - Quantas notas os aluno têm a serem consideradas?
+     - Qual o modelo de média adotado? 
+	   - Aritimética
+	   - Ponderada
+		Caso ponderada, será perguntado qual o peso de cada nota.
+
+ Logo após, o programa mostará 4 opções ao usuario(a):
+     1- Cadastro de novo aluno;
+     2- Remoção de aluno;
+     3- Relatórios;
+     4- Encerrar o programa.
+
+ Se o usuário escolha cadastar um novo aluno, será perguntado a ele:
+     - Nome do aluno;
+     - Notas do aluno;
+     - Número do aluno.
+
+ Após o cadastro é apresentado novamente o menu com as 4 opções ao usuário.
+
+ Caso o usuário escolha remover um aluno, ele poderá pesquisar um pelo nome ou número, após a escolha do aluno, será emitida uma mensagem de confirmação perguntado se o usuário realmente quer apagar os dados. 
+
+ Após a remoção do aluno, o menu é novamente apresentado ao usuário.
+
+ Caso o usuário escolha a opção de relatórios, será apresentado mais um menu com 2 opções:
+     1- Pesquisar aluno;
+     2- Relatório geral;
+     3- Voltar.
+
+   Se o usuário apertar para pesaquisar o aluno, será apresentada a mesma dinâmica de pesquisa da opção de remoção e então será imprimido na tela todas as informações dos alunos. Informações estas:
+      - Todas as suas notas;
+      - Sua média;
+      - Maior e menor nota; 
+
+  Caso escolha relatório geral, será apresentado todas as informações do tópico anterior te todos os alunos da sala.
+
+ Caso queira voltar, irá para o menu principal.
+
+Caso, finalmente queira encerrar o programa, deverá escolher a última opção.
+	 
